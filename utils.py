@@ -15,3 +15,13 @@ def validate_input(input_str):
         return value
     except ValueError:
         raise ValueError
+
+
+def print_list(lst):
+    string_elements = []
+    for element in lst:
+        string_elements.append(str(element))
+    formatted_string = ", ".join(string_elements)
+    
+    result = f"List: {formatted_string}"
+    return result
