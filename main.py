@@ -1,7 +1,7 @@
 #Main
 from merge_sort import merge_sort
 from merge_sort import merge
-from utils import validate_input, 
+from utils import validate_input, random_list, print_list
 def main():
     print("Welcome to the Merge Sort Program!")
     while True:
