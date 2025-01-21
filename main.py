@@ -28,3 +28,5 @@ def main():
             print_list(sorted_list)
         else:
             print("Invalid choice. Please enter 1 or 2.")
+
+main()
